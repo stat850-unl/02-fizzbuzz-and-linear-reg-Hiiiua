@@ -40,7 +40,7 @@ The "FizzBuzz Test" is a famous programming interview question.
 
 First, start out by sketching out the program flow. You can use a formal [flowchart](https://www.programiz.com/article/flowchart-programming) or you can use an informal style, but your sketch should have arrows, an entry point, and an exit point, along with several branches. Scan in and save your program flow map in this project directory, and then add the file name in the parentheses below.
 
-![My sketch of program flow](./my-file-name.jpg)
+![My sketch of program flow](./Flowchart.jpg)
 
 In the R chunk below, write code which will solve this problem. 
 
