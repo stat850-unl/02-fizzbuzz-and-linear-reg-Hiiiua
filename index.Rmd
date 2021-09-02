@@ -47,7 +47,8 @@ In the R chunk below, write code which will solve this problem.
 ```{r fizzbuzz-solution, echo = T}
 
 # FizzBuzz code goes here
-for (num in 1:30){
+num <- 1
+while (num <= 30){
   if (num%%15==0){
     print('FizzBuzz')
   }
@@ -60,8 +61,8 @@ for (num in 1:30){
   else{
     print(num)
   }
+  num <- num+1
 }
-
 
 ```
 
@@ -70,7 +71,8 @@ In the sas chunk, or in the fizzbuzz.SAS file that is part of this repository, w
 ```{sas fizzbuzz-sas, error = T}
 PROC IML;
 
-do i=1 to 30;
+i=1;
+do while(i<31);
 if mod(i,15)=0 then;
 	do;
 	print("FizzBuzz");
@@ -87,6 +89,7 @@ else;
 	do;
 	print i;
 	end;
+i=i+1;
 end;
 
 QUIT;

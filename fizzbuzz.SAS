@@ -1,7 +1,8 @@
 PROC IML;
 
 /* FizzBuzz code goes here */
-do i=1 to 30;
+i=1;
+do while(i<31);
 if mod(i,15)=0 then;
 	do;
 	print("FizzBuzz");
@@ -18,5 +19,6 @@ else;
 	do;
 	print i;
 	end;
+i=i+1;
 end;
 QUIT;
