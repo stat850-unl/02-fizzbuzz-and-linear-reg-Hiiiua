@@ -1,7 +1,7 @@
 /********************************************************************************/
 /* Read in the data                                                             */
 /********************************************************************************/
-PROC IMPORT datafile = "amazon_books.csv" out=books
+PROC IMPORT datafile = "02-fizzbuzz-and-linear-reg-Muxin_Hua/amazon_books.csv" out=books
   DBMS = csv; /* comma delimited file */
   GETNAMES = YES;
   
